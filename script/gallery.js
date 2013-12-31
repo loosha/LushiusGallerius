@@ -17,7 +17,14 @@ $(document).ready(function(){
 
         // change main image
         $('#main-image').css('background-image', 'url(' + imgSrc + ')');
+        $('#dissapear').fadeOut('fast');
     });
+
+
+
+
+
+
 
 
     // this is one way of doing it
